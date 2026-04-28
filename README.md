@@ -9,4 +9,3 @@
 Este repositorio centraliza todas las prácticas y proyectos desarrollados durante el bootcamp. Está pensado como recurso de consulta, revisión y colaboración entre estudiantes y docentes.
 
 ---
-
