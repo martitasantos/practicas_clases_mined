@@ -1,0 +1,88 @@
+/** selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3e5d8;
+    padding: 3rem;
+}
+
+.container{
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/* width: 100% */
+
+figure img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.title{
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.paragrahp{
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/** seleccionado por clase (.) */
+.preparation-time{
+    background-color: #f3e5d8;
+    padding: 1rem 1.5rem; /** 16px top, bottom,  24px left, rigth */
+}
+
+/** seleccionando un elemento hijo */
+.preparation-time h3{
+    color: #752c49;
+}
+
+/** aplicando los mismos estilos para los siguientes contenedores */
+.container-ingredients, .container-instructions, .container-nutrition{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.subtitle{
+    color: #844631;
+    font-size: 1.3rem;
+    padding-bottom: .5rem;
+}
+
+/** agregando espacio entre linea en las listas */
+.container-ingredients ul, .container-instructions ol{
+    line-height: 1.6;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid #6B6B6B;
+}
+
+td{
+    padding: .5rem; /** .5rem equivale a 8 pixeles */
+}
+
+.celda{
+    color: #844631; 
+    font-weight: bold; /** agregando negrita al texto */
+}
+
+/** seleccionado por ID (#) 
+#time{
+
+}
+*/
