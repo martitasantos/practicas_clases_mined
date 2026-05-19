@@ -1,0 +1,8 @@
+/* Cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: yellowgreen;
+  color: black;
+  line-height: 1.5;
+  padding: 20px;
+}

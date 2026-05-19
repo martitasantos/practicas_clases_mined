@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía de los mejores alojamientos turísticos en El Salvador.">
+  <title>Alojamientos en El Salvador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Turismo SV</div>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#formulario">Contacto</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <header id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Descubre el Descanso Perfecto en El Salvador</h1>
+      <p>Desde las olas de El Tunco hasta la frescura de los naranjos.</p>
+      <a href="#servicios" class="btn-cta">Ver Alojamientos</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="nosotros" class="container">
+      <h2>Nosotros</h2>
+      <p>Somos una guía dedicada a conectar viajeros con la esencia de El Salvador. Promovemos el turismo local destacando cabañas ecológicas, hoteles boutique y la hospitalidad salvadoreña que nos caracteriza.</p>
+    </section>
+
+    <section id="servicios" class="container">
+      <h2>Nuestros Alojamientos</h2>
+      <div class="servicios-grid">
+        <article class="card">
+          <img src="assets/cabana.jpg" alt="Cabaña en el volcán">
+          <h3>Cabañas de Montaña</h3>
+          <p>Disfruta del clima fresco en los altos de Santa Ana y Chalatenango.</p>
+        </article>
+        <article class="card">
+          <img src="assets/hotel-playa.jpg" alt="Hotel de playa">
+          <h3>Hoteles Boutique</h3>
+          <p>Lujo y confort frente a las mejores costas del Pacífico.</p>
+        </article>
+        <article class="card">
+          <img src="assets/hostal.jpg" alt="Hostal colonial">
+          <h3>Hostales con Encanto</h3>
+          <p>Opciones económicas y acogedoras en pueblos vivos como Ataco.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="formulario" class="container">
+      <h2>Contáctanos</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">¿En qué podemos ayudarte?</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" id="btn-enviar">Enviar Mensaje</button>
+        <p id="error-message" style="color: red; display: none;">Por favor, llena todos los campos correctamente.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-links">
+      <p>Siguenos en: Facebook | Instagram | Twitter</p>
+    </div>
+    <p>© 2026 Roberto, Ruth Santin y Martha Santos | Alojamientos Turísticos El Salvador</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
